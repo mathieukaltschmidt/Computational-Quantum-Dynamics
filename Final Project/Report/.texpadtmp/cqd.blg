@@ -1,15 +1,15 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
 [0] Config.pm:346> INFO - Logfile is '/Users/Mathieu/Documents/GitHub/CompQD/Final Project/Report/.texpadtmp/cqd.blg'
-[88] biber-darwin:290> INFO - === Sat Mar  9, 2019, 01:12:52
-[153] Biber.pm:351> INFO - Reading '/Users/Mathieu/Documents/GitHub/CompQD/Final Project/Report/.texpadtmp/cqd.bcf'
-[436] Biber.pm:773> INFO - Using all citekeys in bib section 0
-[457] Biber.pm:3493> INFO - Processing section 0
-[498] Biber.pm:3657> INFO - Looking for bibtex format file '/Users/Mathieu/Documents/GitHub/CompQD/Final Project/Report/bibliography/cqd.bib' for section 0
-[500] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
-[502] bibtex.pm:1048> INFO - Found BibTeX data source '/Users/Mathieu/Documents/GitHub/CompQD/Final Project/Report/bibliography/cqd.bib'
-[537] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[537] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[537] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
-[537] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
-[543] bbl.pm:526> INFO - Writing '/Users/Mathieu/Documents/GitHub/CompQD/Final Project/Report/.texpadtmp/cqd.bbl' with encoding 'UTF-8'
-[544] bbl.pm:619> INFO - Output to /Users/Mathieu/Documents/GitHub/CompQD/Final Project/Report/.texpadtmp/cqd.bbl
+[69] biber-darwin:290> INFO - === Sat Mar  9, 2019, 01:52:54
+[98] Biber.pm:351> INFO - Reading '/Users/Mathieu/Documents/GitHub/CompQD/Final Project/Report/.texpadtmp/cqd.bcf'
+[242] Biber.pm:773> INFO - Using all citekeys in bib section 0
+[261] Biber.pm:3493> INFO - Processing section 0
+[285] Biber.pm:3657> INFO - Looking for bibtex format file '/Users/Mathieu/Documents/GitHub/CompQD/Final Project/Report/bibliography/cqd.bib' for section 0
+[287] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[289] bibtex.pm:1048> INFO - Found BibTeX data source '/Users/Mathieu/Documents/GitHub/CompQD/Final Project/Report/bibliography/cqd.bib'
+[307] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[307] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[308] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[308] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[312] bbl.pm:526> INFO - Writing '/Users/Mathieu/Documents/GitHub/CompQD/Final Project/Report/.texpadtmp/cqd.bbl' with encoding 'UTF-8'
+[312] bbl.pm:619> INFO - Output to /Users/Mathieu/Documents/GitHub/CompQD/Final Project/Report/.texpadtmp/cqd.bbl

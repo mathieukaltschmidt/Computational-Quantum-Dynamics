@@ -1,3 +1,21 @@
 \section{Introduction}
-\Blindtext
+In the first part of this report we want to present the physical concepts needed for the understanding of the performed calculations. At the end, the Split-Step Fourier method, we used to analyze the dynamics of the different quantum systems, is introduced.
+
+\subsection{The Gross-Pitaevskii equation}
+
+\begin{align}
+	i\hbar \frac{\partial\psi}{\partial t} = \left[-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r}, t) + g\norm{\psi}^2\right]\psi
+\end{align}
+
+
+\subsection{Solitons}
+Solitons are non-dispersive wave solutions of the Gross-Pitaevskii equation. In the following we distinguish between bright solitons, describing attractive interactions and dark solitons for repulsive interactions. The latter ones will be the objects of interest for our studies. They are characterized by their so called \textit{greyness} $\nu = \frac{v_s}{c_s}$, with the Bogoliubov speed of sound $c_s = \sqrt{\frac{ng}{m}}$ and the velocity $v_s$ of the solitons movement inside the gas. \\
+If we restrict ourselves to the case of repulsive interactions and vanishing external potential ($V=0$) the analytic solution of a single solitonic excitation reads 
+\begin{align}
+	\phi_{\nu}^{(1)}(z,t) = \sqrt{n}\left[ i\nu + \gamma^{-1}\tanh\left(\frac{z - (z^0 + \nu c_s t)}{\sqrt{2}\xi\gamma}\right) \right]\operatorname{e}^{i\mu t}
+\end{align}
+with the Lorentz factor $\gamma^{-1} = \sqrt{1 - \nu^2}$, the healing length $\xi = \frac{1}{\sqrt{mng}}$, the homogenous background density $n$ and the chemical potential $\mu$.
+
+
+\subsection{Other topological defects: Vortices}
 
