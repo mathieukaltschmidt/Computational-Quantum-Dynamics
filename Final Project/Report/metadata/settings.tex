@@ -1,0 +1,89 @@
+%personel data
+\title{The Gross-Pitaevskii equation: \\ Dynamics of solitons and vortices}
+\author{Mathieu Kaltschmidt \& Carl von Randow}
+\date{\today}
+
+%math and theorems
+\usepackage{amsmath}
+\usepackage{ntheorem}
+\usepackage{amssymb}
+
+
+%language settings and microtype
+\usepackage{fontspec} 
+\setmainfont{Palatino}
+\setsansfont{Optima}
+\setmonofont[Scale=MatchLowercase]{Menlo}
+
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguages{german}
+\usepackage{microtype}
+
+%useful packages
+\usepackage{siunitx}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{blindtext}
+\usepackage{physics}
+\usepackage[labelfont=bf]{caption}
+\usepackage{grffile}
+
+%color settings
+\definecolor{myred}{RGB}{196,19,47} 
+\definecolor{myblue}{RGB}{65,105,225}
+\definecolor{mydarkblue}{RGB}{1,1,141}
+\definecolor{mygray}{RGB}{102, 102, 142}
+
+
+% Page layout for beginning of chapter
+\fancypagestyle{plain}{%
+	\fancyhf{}  % clear all header and footer fields 
+	\fancyfoot[C]{- \thepage\hspace{3pt}-} 
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}}
+
+%page layout for the other pages
+\makeatletter
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LO]{\footnotesize\nouppercase{\leftmark}}
+\fancyhead[RE]{\footnotesize\nouppercase{\leftmark}}
+
+\fancyfoot[C]{- \thepage\hspace{3pt}-}
+\renewcommand{\headrulewidth}{0.2pt}
+\renewcommand{\footrulewidth}{0pt}
+\makeatother
+
+% titles and stuff
+\setkomafont{section}{\textsf\bfseries\Large}
+\setkomafont{subsection}{\textsf\bfseries\large}
+\setkomafont{subsubsection}{\textsf\bfseries\normalsize}
+
+
+% nice fracs
+\usepackage{xfrac}
+
+%parindent
+\setlength{\parindent}{0pt}
+
+%bibliography
+\usepackage[
+style=numeric-comp,
+backend=biber,
+isbn=false,
+date=year,
+url=false,
+doi=false
+]{biblatex}
+\addbibresource{bibliography/cqd.bib}
+
+
+%appendix
+\usepackage[toc,page]{appendix}
+
+%always use heperref at the end of the preamble!
+\usepackage[colorlinks=True]{hyperref}
+\hypersetup{allcolors=mydarkblue}

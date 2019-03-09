@@ -1,0 +1,89 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{Erne2012}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=9e44bf0102ec486af4a20a23f3c3825f}{%
+           family={Erne},
+           family_i={E\bibinitperiod},
+           given={Sebastian},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Heidelberg University}%
+      }
+      \strng{namehash}{9e44bf0102ec486af4a20a23f3c3825f}
+      \strng{fullhash}{9e44bf0102ec486af4a20a23f3c3825f}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Diploma thesis}
+      \field{title}{Characterization of solitonic states in a trapped ultracold Bose Gas}
+      \field{year}{2012}
+    \endentry
+    \entry{GasenzerKarl2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b04cec1afa8726d16f6261cb8b0b39b1}{%
+           family={Karl},
+           family_i={K\bibinitperiod},
+           given={Thomas\bibnamedelimb Gasenzer\bibnamedelimb \&\bibnamedelima Markus},
+           given_i={T\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim \~M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b04cec1afa8726d16f6261cb8b0b39b1}
+      \strng{fullhash}{b04cec1afa8726d16f6261cb8b0b39b1}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New J. Phys.}
+      \field{title}{Strongly anomalous non-thermal fixed point in a quenched two-dimensional Bose gas}
+      \field{volume}{19 093014}
+      \field{year}{2017}
+    \endentry
+    \entry{BarenghiParker2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0b058ef2b4875f0e7855a23a253465ea}{%
+           family={Parker},
+           family_i={P\bibinitperiod},
+           given={Carlo\bibnamedelimb F.\bibnamedelimi Barenghi\bibnamedelimb \& Nick\bibnamedelima G.},
+           given_i={C\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim \~N\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0b058ef2b4875f0e7855a23a253465ea}
+      \strng{fullhash}{0b058ef2b4875f0e7855a23a253465ea}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\href{https://arxiv.org/abs/1605.09580}{arXiv:1605.09580}}
+      \field{title}{Primer on Quantum Fluids}
+      \field{year}{2016}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

@@ -1,0 +1,27 @@
+\documentclass[oneside]{scrartcl}
+
+%Loading Packages and General Settings
+\input{metadata/settings}
+\usepackage[top = 1cm, bottom=1cm,includeheadfoot]{geometry}
+
+
+\begin{document}
+%Title and Abstract
+\input{content/00_abstract}
+
+%Main content
+\input{content/01_introduction}
+	\input{content/011_split_step_fourier}
+\input{content/02a_solitons1D}
+\input{content/02b_solitons2D}
+\input{content/03_vortices}
+\input{content/04_conclusion}
+
+%References 
+\newpage	
+\thispagestyle{plain}
+\addcontentsline{toc}{chapter}{References}
+\nocite{*}
+\printbibliography[title=References]
+\end{document}
+ 

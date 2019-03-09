@@ -1,0 +1,100 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{Léna2012}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c4acc05a00cf90286eb6f9c6fa9a6bd1}{%
+           family={Léna},
+           family_i={L\bibinitperiod},
+           given={Pierre},
+           given_i={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin ; Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c4acc05a00cf90286eb6f9c6fa9a6bd1}
+      \strng{fullhash}{c4acc05a00cf90286eb6f9c6fa9a6bd1}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3. Auflage.}
+      \field{title}{Observational Astrophysics}
+      \field{year}{2012}
+    \endentry
+    \entry{Pott2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=aec90b90b781851b51f7333cfcc2405a}{%
+           family={Pott},
+           family_i={P\bibinitperiod},
+           given={Jörg-Uwe},
+           given_i={J\bibinithyphendelim U\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {MPI for Astronomy, Heidelberg}%
+      }
+      \strng{namehash}{aec90b90b781851b51f7333cfcc2405a}
+      \strng{fullhash}{aec90b90b781851b51f7333cfcc2405a}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Version 4.0.3}
+      \field{title}{FP 30: CCD photometry in modern astronomy - manuel}
+      \field{year}{2017}
+    \endentry
+    \entry{Unsöld2015}{book}{}
+      \name{author}{2}{}{%
+        {{hash=0d66019cdb260ccbec4678405dd386cd}{%
+           family={Unsöld},
+           family_i={U\bibinitperiod},
+           given={Albrecht},
+           given_i={A\bibinitperiod}}}%
+        {{hash=43594e03521a955d007b282da84cc8be}{%
+           family={Baschek},
+           family_i={B\bibinitperiod},
+           given={Bodo},
+           given_i={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin ; Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Spektrum}%
+      }
+      \strng{namehash}{20907ac062fff1a1669c471b1298b7d2}
+      \strng{fullhash}{20907ac062fff1a1669c471b1298b7d2}
+      \field{sortinit}{U}
+      \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7. ed.}
+      \field{subtitle}{Einführung in die Astronomie und Astrophysik}
+      \field{title}{Der neue Kosmos}
+      \field{year}{2015}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
