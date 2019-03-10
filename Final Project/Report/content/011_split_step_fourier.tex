@@ -1,2 +1,38 @@
 \subsection{The Split-Step Fourier method}
-\blindtext
+
+The Split-Step Fourier method can be used to solve nonlinear partial differential equations. The result is obtained by evolving the system in both the time and the frequency domain. Therefore the differential equation is split into a linear and a nonlinear part, which can be considered/regarded separately by using sufficiently small steps. The transformation between time and frequency domain can be achieved efficiently by a fast Fourier transform (FFT) algorithm, which makes this method desirable.
+
+%TODO: Ich habe den Verweis jetzt doch nicht verwendet, nur damit du weißt. Falls du magst, kannst du das label also entfernen :)
+
+%TODO: Sicherstellen, dass ö funktioniert und nicht durch \"o ersetzt werden muss
+In order to solve the GPE we first take a look at the time-dependent Schrödinger equation:
+\begin{align}
+i\hbar\ \frac{\partial\psi(x, t)}{\partial t} =
+\left[ -\frac{\hbar^2}{2m} \nabla^2 + V \right] \cdot \psi(x, t)
+\end{align}
+Its solution is:
+\begin{align}
+\psi(x,t+\Delta t) = \exp\left[\alpha \left( -\frac{\hbar^2}{2m}\nabla^2 + V\right) \right] \cdot \psi(x,t)
+\end{align}
+We defined $\displaystyle \alpha := -\frac i \hbar \Delta t $ simply for convenience.
+Since the terms in the exponent do not commute, one cannot simply split the exponential function up. But if one rewrites the solution as
+\begin{align}
+\psi (x,t + \Delta t) = \exp\left(\frac \alpha 2 V\right) \cdot 
+\exp\left( -\alpha\frac{\hbar^2}{2m}\nabla^2\right) \cdot
+\exp\left(\frac \alpha 2 V \right) \cdot \psi(x,t)
+\end{align}
+the error is of $\mathcal{O}(\Delta t^3)$, which is accurate enough in our case and allows us to treat the two steps separately. Due to the fact, that $V$ is diagonal in the time domain and $\nabla^2$ is diagonal in the frequency domain, they simply become multiplications by $V(x)$ and the squared wavevector $k^2$, respectively. Combined with the speed of the FFT this enables a faster and more efficient way to obtain the result than calculating everything in the time domain would be.
+Putting everything together yields:
+\begin{align}
+\psi (x,t + \Delta t) = \exp\left(\frac \alpha 2 V\right) \cdot \mathcal{F}^{-1} \left[
+\exp\left( -\alpha\frac{\hbar^2}{2m}k^2\right) \cdot \mathcal{F} \left[
+ \exp\left(\frac \alpha 2 V \right) \cdot \psi(x,t) \right] \right]
+\end{align}
+%Hatte überlegt, das alpha noch zu ersetzen, aber da es dann nicht in eine Zeile passt habe ich es gelassen :)
+%\begin{align}
+%\psi (x,t + \Delta t) = \exp\left(-\frac{i\Delta t}{2\hbar} V\right) \cdot \mathcal{F}^{-1} \left[
+%\exp\left( -\frac{i\hbar \Delta t k^2}{2m} \right) \cdot \mathcal{F} \left[
+%\exp\left(-\frac{i\Delta t }{2\hbar} V \right) \cdot \psi(x,t) \right] \right]
+%\end{align}
+Although we used the linear Schrödinger equation with time-independent Hamiltonian, the result is also true for the GPE if one replaces $V(x)$ by $V(x) + g\norm{\psi}^2$. By using the latest result in every step of the calculation one can ensure that the error does not exceed $\mathcal{O}(\Delta t^3)$.
+%TODO: Du hattest noch "stable" erwähnt, ich glaube das fehlt bei mir noch, oder? Sag mir morgen nochmal genauer, was ich noch schreiben soll bitte :)
