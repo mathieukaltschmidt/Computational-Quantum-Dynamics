@@ -1,16 +1,23 @@
 \section{Conclusion}
-In this section we want to conclude our results and compare them to what we would have expected.
+In this section we want to conclude our results and compare them to what we expected.
 \begin{description}
-	\item[Solitons in one spatial dimension] 
-We analyzed solitonic solutions of the GPE, discretized on a spatial grid. For the case of a black soliton with $\nu=0$ \ we proved, that the distribution does not change over time. At the boundaries of the grid, we could observe some disturbing artefacts, which threaten the stability of our solution after long times.
+	\item[Solitons in one spatial dimension.] 
+	
+We analyzed solitonic solutions of the GPE, discretized on a spatial grid. For the case of a black soliton with $\nu=0$, \ we proved, that the distribution does not change over time. At the boundaries of the grid, we could observe some disturbing artefacts, which threaten the stability of our solution after long times.
 
 For a single grey soliton with $\nu = 0.8$ we saw the expected movement in positive $z$-direction. Unfortunately the disturbing effects at the boundaries were a lot stronger in this case. Nevertheless we were able  to reproduce the result one would expect from the analytical solution. The analytical time evolution is also included in the corresponding notebook.
 	
-In the case of two gray solitons, moving in opposite directions, we saw the overlapping in the center of the grid and after passing past each other the characteristic single movement, not effected by the collision. 
+In the case of two grey solitons, moving in opposite directions, we saw the overlapping in the center of the grid and after passing past each other the characteristic single movement, not affected by the collision. 
 	
-	\item[Perturbed density distributions in two spatial dimensions]
-We tried to perturb the two dimensional grid on two different ways, first by adding some randomized noise and second by adding a periodic, sinusoidal noise structure. Both distributions showed interesting dynamics over time. The randomized noise seams to vanish after long times, i.\,e. the distribution get's smoother. This was not what we expected intuitively at the beginning , but after playing around with the vortex grids in the third part, it seems that the artificially added defects are not stable at all. The second example showed the same long-term behavior.
+	\item[Perturbed density distributions in two spatial dimensions.]
+	
+We tried to perturb the two dimensional grid on two different ways, first by adding some randomized noise and second by adding a periodic, sinusoidal noise structure. Both distributions showed interesting dynamics over time. The randomized noise seems to vanish after long times, i.\,e. the distribution gets smoother. This was not what we expected intuitively at the beginning , but after playing around with the vortex grids in the third part, it seems that the artificially added defects are not stable at all. The second example showed the same long-term behavior.
   
-	\item[Vortices as topological defects]
+	\item[Vortices as topological defects.]
+	
+In the first constellation, where we observed the evolution of vortex-antivortex pairs of the same charge, we saw, that the vortices unwind and due to the opposite charges, cancel out each other, such that the density distribution becomes homogeneous after some time. 
 
+In the second case we had a look at single vortices of higher charges. The absence of antivortices prevents the vortices from unwinding/vanishing and therefore, even after a long time, the density distribution is still covered with artefacts of vortices.
+
+The last situation we observed, was an equidistant positioning of vortices with higher charges. In the density plot, one can still observe the artefacts of the vortices at their initial positions and the phase distribution seems to be more stable than in the first case. In the provided animation we still found the vortices in the density plot after some time, whereas the phase plot became more and more indistinct. 
 \end{description}
