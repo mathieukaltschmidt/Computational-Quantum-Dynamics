@@ -83,6 +83,24 @@
       \field{title}{Primer on Quantum Fluids}
       \field{year}{2016}
     \endentry
+    \entry{ETH}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=88183b946cc5f0e8c96b2e66e1c74a7e}{%
+           family={Unknown},
+           family_i={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {ETH Zürich}%
+      }
+      \strng{namehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{fullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \field{sortinit}{U}
+      \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Chapter 4: Vortices (\href{https://www.ethz.ch/content/dam/ethz/special-interest/phys/theoretical-physics/cmtm-dam/documents/qg/Chapter_04.pdf}{Link})}
+      \field{title}{Lecture notes on Bose-Einstein condensation}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

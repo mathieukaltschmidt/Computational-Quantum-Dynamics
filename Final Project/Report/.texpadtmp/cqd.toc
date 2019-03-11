@@ -1,0 +1,14 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Bose-Einstein condensation}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}From the Schr\"odinger equation to the GPE}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Solitons}{2}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Other topological defects: Vortices}{2}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}The Split-Step Fourier method}{2}{subsection.1.5}
+\contentsline {section}{\numberline {2}Evolution of dark solitons in a homogeneous 1D Bose gas}{3}{section.2}
+\contentsline {section}{\numberline {3}Dynamics of solitons in a homogeneous 2D Bose gas}{3}{section.3}
+\contentsline {section}{\numberline {4}Visualizing the dynamics of vortices in a 2D Bose gas}{4}{section.4}
+\contentsline {section}{\numberline {5}Conclusion}{4}{section.5}
+\contentsline {section}{References}{5}{section.5}
